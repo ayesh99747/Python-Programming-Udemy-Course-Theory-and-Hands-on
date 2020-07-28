@@ -1,0 +1,5 @@
+Topics:
+    • Strings (introduction)
+    • Use a range of built-in functions - print(), type(), int(), str()
+    • Get Keyboard input - input()
+    • Translate your Pseudocode into Python programs

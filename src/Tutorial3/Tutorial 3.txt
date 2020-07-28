@@ -1,0 +1,4 @@
+Topics:
+    • if, if-else, elif;
+    • generating random numbers;
+    • boolean operators: and, or, not.
