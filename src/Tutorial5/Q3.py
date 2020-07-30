@@ -1,0 +1,1 @@
+# 3. Write a for loop that will output all odd numbers between 0 and 50.

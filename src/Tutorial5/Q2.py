@@ -1,0 +1,1 @@
+# 2. Write a program that uses a for loop to read in 5 numbers and output the total.
