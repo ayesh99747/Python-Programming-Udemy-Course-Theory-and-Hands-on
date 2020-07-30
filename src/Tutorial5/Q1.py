@@ -12,3 +12,10 @@
 #       7 x 8 = 56
 #       7 x 9 = 63
 #       7 x 10 = 70
+
+count = 0
+number_entered = int(input("Enter the number to print the tables for: "))
+for i in range(1, 11):
+    count = count + 1
+    answer = number_entered * count
+    print(number_entered, " x ", count, " = ", answer)

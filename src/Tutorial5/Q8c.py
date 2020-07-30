@@ -6,7 +6,7 @@
 #           n = int(n)
 #           break
 #       except ValueError:
-#       print("Requires a valid integer! Please try again.")
+#           print("Requires a valid integer! Please try again.")
 #   print("You successfully entered an integer.")
 #
 # Example output:
@@ -16,3 +16,12 @@
 #   Requires a valid integer! Please try again.
 #   Please enter an integer: 5
 #   You successfully entered an integer.
+
+while True:
+    n = input("Please enter an integer: ")
+    try:
+        n = int(n)
+        break
+    except ValueError:
+        print("Requires a valid integer! Please try again.")
+print("You have successfully entered an integer.")
