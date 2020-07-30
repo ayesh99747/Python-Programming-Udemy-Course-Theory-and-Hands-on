@@ -11,3 +11,25 @@
 #      loop and tell the user they are correct and how many guesses it took.
 #       o You will need to add a check directly after the loop to decide which message 
 #         is appropriate. E.g., either a) or b) above.
+
+import random
+
+hidden = random.randint(1, 20)
+count = 0
+entered_num = 0
+while count < 5 and entered_num != hidden:
+    entered_num = int(input("Guess the number(Between 1 & 20)"))
+    if entered_num != hidden:
+        if entered_num > hidden:
+            print("Entered value was too high!")
+        elif entered_num < hidden:
+            print("Entered value was too low!")
+        print("Please guess again: ")
+        count = count + 1
+    else:
+        print("Your guess was correct!")
+if count < 5:
+    print("You were able to guess the correct answer in: ", count+1, 'attempts')
+else:
+    print("You have run out of attempts")
+    print("The correct answer is: ", hidden)

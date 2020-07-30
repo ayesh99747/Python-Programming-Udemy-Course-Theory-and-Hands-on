@@ -9,3 +9,13 @@
 #           o To state the guess was not correct, and ask the user for another guess.
 #       • Loop while the guess entered by the user is not the hidden number.
 #       • When the guess is correct, exit the loop and let the user know they were correct.
+
+hidden = 6
+entered_num = int(input("Guess the number(Between 1 & 20)"))
+if entered_num == hidden:
+    print("Your guess was correct!")
+else:
+    while entered_num != hidden:
+        print("Please guess again: ")
+        entered_num = int(input("Guess the number(Between 1 & 20)"))
+    print("Your guess was correct!")
